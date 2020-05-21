@@ -1,0 +1,53 @@
+#      eclipse #
+######################
+.classpath
+.project
+.settings/
+
+#   intellij config  #
+######################
+
+*.iml
+.idea/
+
+#   netbeans config  #
+######################
+nb-configuration.xml
+nbactions.xml
+nbproject/
+
+#      common        #
+######################
+
+/artefacts
+target/
+
+#       JAVA         #
+######################
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files     #
+#####################
+*.jar
+*.war
+*.ear
+.flattened-pom.xml
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#        NPM         #
+######################
+
+node_modules/
+webpack.generated.js
