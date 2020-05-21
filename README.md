@@ -3,7 +3,7 @@
 ## How to develop
 
 * `mvn clean install` - build everything
-* `cd service` - move to the vaadin application
+* `cd demo-service` - move to the vaadin application
 * `mvn spring-boot:run` - start vaadin application
 
 ## How to create production application
