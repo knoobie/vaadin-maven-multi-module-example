@@ -1,5 +1,11 @@
 # Vaadin Multi Module Example
 
+## Dependencies & Requirements
+
+* Vaadin `14.2.x`
+* Spring Boot `2.3.x.RELEASE`
+* Java 8 (not tested with 11 and above)
+
 ## How to develop
 
 * `mvn clean install` - build everything
