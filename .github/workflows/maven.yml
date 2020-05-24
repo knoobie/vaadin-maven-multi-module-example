@@ -30,7 +30,7 @@ jobs:
     - name: Build with Maven
       run: mvn -Pproduction clean install
     - name: Archive demo-service
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v2
       with:
-        name: demo-service.jar
+        name: demo-service-java-${{ matrix.java }}.jar
         path: demo-service/target/demo-service-1.0.0-SNAPSHOT-exec.jar     
