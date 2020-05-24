@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        java: [1.8, 11, 13]
+        java: [1.8, 11, 14]
     steps:
     - uses: actions/checkout@v2
     - name: Set up java ${{ matrix.java }}
@@ -29,3 +29,8 @@ jobs:
           ${{ runner.os }}-maven-
     - name: Build with Maven
       run: mvn -Pproduction clean install
+    - name: Archive demo-service
+      uses: actions/upload-artifact@v1
+      with:
+        name: demo-service.jar
+        path: demo-service/target/demo-service-1.0.0-SNAPSHOT-exec.jar     
