@@ -17,8 +17,8 @@
 
   <properties>
     <!-- dependencies -->
-    <vaadin.version>14.3.1</vaadin.version>
-    <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
+    <vaadin.version>14.5.1</vaadin.version>
+    <spring-boot.version>2.4.4</spring-boot.version>
   </properties>
 
   <dependencies>
